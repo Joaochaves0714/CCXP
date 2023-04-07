@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #FFD900;
+}
+
+header img {
+    width: 15rem;
+    padding: 2rem;
+}
+
+.descricao {
+    display: flex;
+    grid-auto-flow: column;
+    justify-content: center;
+    margin: 0.5rem;
+}
+
+#text {
+    background-color: #514988;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.title {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.5rem;
+    color: #F3C61F;
+    font-weight: 700;
+    padding-top: 2rem;
+    margin: 0;
+}
+
+.subTitle {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: 700;
+    padding-bottom: 5rem;
+    margin: 0;
+}
+
+.text {
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Verdana';
+    font-weight: 400;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    font-style: normal;
+}
+
+#timerClip,#text {
+    flex-basis: 50%;
+}
+
+.timer {
+    display: flex; 
+    grid-auto-flow: column;
+    justify-content: space-around;
+    
+
+}
+
+.timer h1 {
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #514988;
+}
+
+.timerText {
+    font-size: 30px;
+    color: #E33881;
+    margin: 0;
+    text-align: center;
+}
+
+#clip {
+    padding: 5px;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.footerTitle{
+    font-size: 50px;
+    margin-left: 70px;
+    font-family: 'Verdana';
+    color: #F3C61F;
+    margin-bottom: 50px;
+}
+
+.dates {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ingressos {
+    margin: 10px;
+    transition: width 0.7s;
+}
+
+#garantaVaga {
+    background-color: #514988;
+    border-radius: 20px;
+    text-align: center;
+    width: 596px;
+    height: 148px;
+    color: #FFFFFF;
+    font-family: 'Verdana';
+    font-size: 42px;
+    font-weight: 700;
+    margin-top: 60px;
+    cursor:pointer
+}
+
+button:hover {
+    background-color: #FFD900;
+}
+img:hover {
+    transform: scale(1.3);
+  }

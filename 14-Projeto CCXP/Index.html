@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>CCXP</title>
+</head>
+
+<body>
+    <header>
+        <img src="assets/img/logo.svg">
+    </header>
+    <main class="descricao">
+        <div id="text">
+            <h1 class="title">REVIVA O ÉPICO</h1>
+            <h2 class="subTitle">DE 01 A 04 DE DEZEMBRO</h2>
+            <h2 class="text">
+                Você consegue sentir? É aquela sensação de<br>
+                finalmente poder falar em voz alta: "estamos<br>
+                em casa". Sim, em dezembro de 2022,<br>
+                teremos a volta da CCXP física. Mas não será<br>
+                qualquer CCXP, vai ser a maior de todos os<br>
+                tempos. Prepare-se para visitar seus<br>
+                universos favoritos, explorar o Artists' Valley,<br>
+                se emocionar nos auditórios e encontrar<br>
+                aventuras épicas a cada passo pelos nossos<br>
+                corredores.
+            </h2>
+
+        </div>
+
+        <div id="timerClip">
+            <div class="timer">
+                <div>
+                    <h1 id="dia">00</h1>
+                </div>
+                <div>
+                    <h1 id="hora">00</h1>
+                </div>
+                <div>
+                    <h1 id="minuto">00</h1>
+                </div>
+                <div>
+                    <h1 id="segundo">00</h1>
+                </div>
+            </div>
+
+            <div class="timerText">
+                <h2>PARA A MAIOR CCXP DE TODOS OS TEMPOS</h2>
+            </div>
+
+            <div id="clip">
+                <video width="900" controls autoplay loop>
+                    <source src=" assets/img/Arlequina.mp4" type="video/mp4">
+                    Seu navegador não suporta o vídeo.
+                </video>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h1 class="footerTitle">
+            AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!
+        </h1>
+        <div class="dates">
+            <div id="ingressos">
+                <a href="" class="ingressos" ">
+                <img width=" 300" src="assets/img/quinta.svg" alt="Ingresso para Quinta-Feira">
+                </a>
+                <a href="" class="ingressos">
+                    <img width="300" src="assets/img/sexta.svg" alt="Ingresso para Sexta-Feira">
+                </a>
+                <a href="" class="ingressos">
+                    <img width="300" src="assets/img/esgotado.svg" alt="Ingresso para Sabado-Feira esta esgotado">
+                </a>
+                <a href="" class="ingressos">
+                    <img width="300" src="assets/img/domingo.svg" alt="Ingresso para Domingo-Feira">
+                </a>
+            </div>
+            <button id="garantaVaga" onmouseout="sair()" onmouseenter="entrar()">GARANTA O SEU!</button>
+
+        </div>
+
+    </footer>
+
+    <script src="assets/main.js"></script>
+</body>
+
+</html>
